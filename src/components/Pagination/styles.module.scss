@@ -1,0 +1,16 @@
+.pagination {
+    margin-top: 20px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    li {
+        margin: 0 2px;
+    }
+}
+
+.current {
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: initial;
+}

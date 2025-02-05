@@ -1,0 +1,28 @@
+.btn {
+    display: inline-block;
+    width: 100%;
+    min-height: 38px;
+    padding: 8px;
+    margin: 10px 0;
+    background: var(--blue);
+    border: 1px solid var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+
+    svg {
+        display: block;
+        margin: 0 auto 4px;
+        font-size: 16px;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
